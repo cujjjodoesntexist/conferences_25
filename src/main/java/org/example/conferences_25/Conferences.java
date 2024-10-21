@@ -4,8 +4,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Date;
-
+import java.time.LocalDate;
 
 @Setter
 @Entity
@@ -14,7 +13,7 @@ public class Conferences {
     @Getter
     private String name;
     @Getter
-    private Date date;
+    private LocalDate date;
     @Getter
     private String moderatorFullName;
     @Getter
